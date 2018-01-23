@@ -3,7 +3,7 @@ import json
 
 
 '''This program detect the language of console 
-inout from users using MeaningCloud'''
+input from users using MeaningCloud'''
 
 # Input from console
 input_str = raw_input("Enter your input: ")
