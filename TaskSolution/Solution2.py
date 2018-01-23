@@ -2,7 +2,7 @@ import requests
 import json
 import os
 
-
+'''This program detects the language of the content of a text file'''
 # read from a file
 file_input = open("news.txt", "r+")
 
