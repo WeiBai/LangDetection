@@ -4,9 +4,9 @@ import os
 
 
 # read from a file
-file_name = open("news.txt", "r+")
+file_input = open("news.txt", "r+")
 
-input_str = file_name.read(50);
+input_str = file_input.read(50);
 
 url = "http://api.meaningcloud.com/lang-2.0"
 
@@ -22,4 +22,4 @@ data = json.loads(response.text)
 
 language = data['language_list'][0]['name']
 
-print "Detected language of file " + food.name+ " is: ", language
+print "Detected language of file " + file_input.name+ " is: ", language
